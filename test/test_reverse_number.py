@@ -1,5 +1,5 @@
 import pytest
-from reverse_integer import solution
+from problems.reverse_integer import solution
 
 inputs = [
     (123, 321),

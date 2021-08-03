@@ -1,4 +1,5 @@
 import pytest
+
 from roman_integer import solution
 
 inputs = [

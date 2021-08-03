@@ -1,5 +1,5 @@
-import pytest
 from plus_one import solution
+import pytest
 
 inputs = [
     ([1, 2, 3], [1, 2, 4]),
