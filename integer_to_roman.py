@@ -33,4 +33,4 @@ class Solution:
 
 if __name__ == '__main__':
     s = Solution()
-    print(s.intToRoman(1994))
+    print(s.intToRoman(1))

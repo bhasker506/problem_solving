@@ -30,7 +30,6 @@ class MergerIntervals:
         result = [current_interval]
         
         for interval in sorted_intervals[1:]:
-            current_begin = current_interval[0]
             current_end = current_interval[1]
             next_start = interval[0]
             next_end = interval[1]

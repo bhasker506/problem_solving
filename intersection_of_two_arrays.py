@@ -19,9 +19,16 @@ from typing import List
 class Solution:
     
     def intersect(self, nums1: List, nums2: List) -> List:
-        nums1 = sorted(nums1)
-        nums2 = sorted(nums2)
+        n1 = set(nums1)
+        for n in nums2:
+            n1.add(n)
         
+        print(n1)
+
+
+if __name__ == '__main__':
+    s = Solution()
+    s.intersect([1, 3, 2, 3, 4, 5, 5, 6], [3, 3, 5])
         
         
     

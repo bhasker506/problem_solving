@@ -15,7 +15,7 @@ class Solution:
         return island_count
 
     def mark_island(self, grid, i, j):
-        if i < 0 or i >= len(grid) or j <0 or j >= len(grid[i]) or grid[i][j] != 1:
+        if i < 0 or i >= len(grid) or j < 0 or j >= len(grid[i]) or grid[i][j] != 1:
             return
         grid[i][j] = 2
         self.mark_island(grid, i-1, j)
